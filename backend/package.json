@@ -1,0 +1,31 @@
+{
+  "name": "pernstack",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "pernstack",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec node --experimental-modules server.js"
+  },
+  "author": "Amir Pourjalilvand",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.4",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
